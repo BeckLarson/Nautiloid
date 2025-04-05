@@ -22,16 +22,17 @@ td{
 
 button{
     border-radius: 15px;
-    background-image: url("/assets/desk.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-     background-position: center;
-     background-size: 100%;
+    // background-image: url("/assets/desk.jpg");
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    //  background-position: center;
+    //  background-size: 100%;
     // background-color: rgb(36, 36, 36);
+    background-color: whitesmoke;
     font-size: clamp(10px, 2.2vw, 195px);
     font-weight: bolder;
     width:100%;
-    color: white;
+    color: rgb(41, 47, 77);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     // background-color: rgb(41, 47, 77);
     border: none;
@@ -43,4 +44,5 @@ button{
 button:hover{
     background-image: none;
     background-color: rgb(41, 47, 77);
+    color: whitesmoke;
 }
