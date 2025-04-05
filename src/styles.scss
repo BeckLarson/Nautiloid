@@ -1,0 +1,159 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+html{
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.intro{
+    text-align: center;
+    padding-top: 4rem;
+    background-color: transparent;
+    img{
+        animation-name: fade-in;
+        animation-duration: 2s;
+        width: 18rem;
+    }
+}
+
+.imgTwo{
+    text-align: center;
+    img{
+        width: 18rem;
+    }
+}
+
+.mission{
+    max-width: 65%;
+    padding:3.5em;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 1em;
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    border: 10px solid rgb(204, 204, 204);
+    animation-name: fade-in-two;
+	animation-duration: 5s;
+    .quote{
+        max-width: 25em;
+        margin: auto;
+    }
+
+}
+
+.missionTwo{
+    max-width: 50em;
+    padding:3em;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    border: 2px solid whitesmoke;
+    .quote{
+        max-width: 25em;
+        margin: auto;
+    }
+
+}
+
+.option-one{
+    text-align: center;
+    background-color: rgb(35, 35, 35);
+    border: 2px solid whitesmoke;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    padding:3em;
+    max-width: 50em;
+}
+.option-two{
+    text-align: center;
+    background-color: rgb(35, 35, 35);
+    border: 2px solid whitesmoke;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 8em;
+    padding:3em;
+    max-width: 50em;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.h1{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.h2{
+    font-weight: bolder;
+    font-size: larger;
+    color: lightgreen;
+    animation: blink-in 1s linear infinite;
+}
+
+.discriptor{
+    color: rgba(241, 147, 97, 0.493);
+    font-size: small;
+}
+
+
+@keyframes blink-in {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(1px, 1px) rotate(1deg); }
+    50% { transform: translate(0, 0) rotate(0eg); color: green;}
+    75% { transform: translate(-1px, 1px) rotate(-1deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    50% { width: 19rem; opacity: 0.75;}
+    100% { opacity: 1; }
+  }
+
+  @keyframes fade-in-two {
+    0% { opacity: 0; }
+    50% { opacity: 0; max-width: 85em;}
+    100% { opacity: 1; }
+  }
+
+  @keyframes fade-in-three {
+    0% { opacity: 0; }
+    50% { opacity: 0;}
+    100% { opacity: 1; }
+  }
+.contact{
+    background-color: rgb(35, 35, 35);
+    border: 2px solid rgb(241, 148, 97);
+    color: rgb(241, 148, 97);
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+}
+
+.contact:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+.email{
+    background-color: rgb(35, 35, 35);
+    border: 2px solid rgb(241, 148, 97);
+    color: rgb(241, 148, 97);
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.email:hover{
+    background-color: rgb(15, 15, 15);
+}

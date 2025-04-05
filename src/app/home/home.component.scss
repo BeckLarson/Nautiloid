@@ -1,0 +1,62 @@
+
+.packages{
+    text-align: center;
+    animation-name: fade-in-three;
+	animation-duration: 8s;
+
+}
+
+.mainImage{
+  min-width: 30%;
+  max-width: 100%;
+}
+
+.item{
+    max-width: 10em;
+    padding:3em;
+    margin: auto;
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    border: 2px solid whitesmoke;
+    animation-name: fade-in-two;
+	animation-duration: 6s;
+}
+
+.main{
+  width: 90%;
+  max-width: 1950px;
+  margin: auto;
+}
+.intro{
+  // background-color: rgb(41, 47, 77);
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  margin-bottom: 0;
+
+}
+
+$animationDelay: 1;
+@for $i from 1 through 15 {
+	.projects div:nth-of-type(#{$i}) {
+		animation-delay: #{0.3+($i)/30}s;
+  }
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  50% { width: 19rem; opacity: 0.75;}
+  100% { opacity: 1; }
+}
+
+@keyframes fade-in-two {
+    0% { opacity: 0; }
+    50% { opacity: 0; max-width: 85em;}
+    100% { opacity: 1; }
+  }
+
+  @keyframes fade-in-three {
+    0% { opacity: 0; }
+    50% { opacity: 0;}
+    100% { opacity: 1; }
+  }
