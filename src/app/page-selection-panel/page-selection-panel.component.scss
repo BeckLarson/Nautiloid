@@ -1,7 +1,6 @@
 table{
     margin: auto;
     width: 80%;
-    margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
 }
@@ -11,7 +10,36 @@ tr{
 }
 td{
     text-align: center;
-    width: 50%;
+    width: 45%;
+    min-width: 150px;
+    background-color: rgb(41, 47, 77);
+    // border-radius: 15px;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
+    img{
+        padding: 1%;
+        width: 80%;
+    }
+}
+
+td:hover{
+    border-color: cyan;
+}
+
+.custom-td{
+    margin: 3px;
+    width: 1%;
+    min-width: 1px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 0;
+}
+
+.custom-td:hover{
+    border-color: whitesmoke;
 }
 
 .vh{
