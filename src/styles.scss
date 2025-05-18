@@ -20,9 +20,11 @@ html{
 }
 
 .imgTwo{
+    padding-top: 50px;
     text-align: center;
     img{
-        width: 18rem;
+        width: 80%;
+        max-width: 500px;
     }
 }
 
@@ -50,9 +52,9 @@ html{
     margin: auto;
     margin-top: 5em;
     margin-bottom: 1em;
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(41, 47, 77);
     text-align: center;
-    border: 2px solid whitesmoke;
+    border: 4px solid whitesmoke;
     .quote{
         max-width: 25em;
         margin: auto;
@@ -131,7 +133,7 @@ ul{
   }
 .contact{
     background-color: rgb(35, 35, 35);
-    border: 2px solid rgb(241, 148, 97);
+    border: 5px solid rgb(241, 148, 97);
     color: rgb(241, 148, 97);
     padding: 1rem;
     padding-left: 2rem;
@@ -144,9 +146,9 @@ ul{
 }
 
 .email{
-    background-color: rgb(35, 35, 35);
-    border: 2px solid rgb(241, 148, 97);
-    color: rgb(241, 148, 97);
+    background-color: rgb(41, 47, 77);
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
     margin: auto;
     padding-left: 2rem;
     padding-right: 2rem;
